@@ -1,5 +1,5 @@
 {% set name = "multicollections" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/multicollections-{{ version }}.tar.gz
-  sha256: ac9366271525024f07645f51221a3b7bcbe2ca3ed7529293e11f6a5cd09efe70
+  sha256: c9e49744043d4c1b0ecdfeb9c1febc67f05efe9dd7b1b38f6e7717996461009e
 
 build:
   noarch: python
