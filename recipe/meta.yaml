@@ -1,5 +1,5 @@
 {% set name = "multicollections" %}
-{% set version = "1.1.5" %}
+{% set version = "1.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/multicollections-{{ version }}.tar.gz
-  sha256: 5f1d4c17d24e14214cee3efb4b3f1b991c4c6651f1c5616adfce9c0428bbe15e
+  sha256: bec01952d3b0372bffe62820adcb36b56964ad77ab149ff34bbd02198fd1917f
 
 build:
   noarch: python
